@@ -22,8 +22,12 @@
 	  opacity:0.95;
 	 }
 #seconddiv{
-      width:100%;
+    margin: 0 auto;
+      width:90%;
       height:150px;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       }	  	 
 #thirddiv{
       width:20%;
@@ -202,58 +206,33 @@ h2{
 	opacity: 2;
 	text-shadow: 2px 2px 8px #145A32;
   }
-#a1{
+.a1{
+    margin-top: 2p;
     font-size:25px;
 	border-radius:25px;
-	padding-right:20px;
-	padding-left:20px;
-	padding-top:10px;
-	padding-bottom:10px;
+    padding: 10px 20px;
     color:black;
 	font-family: Segoe Print;
 	cursor:pointer;
 	transition: all .3s ease-in-out;
 	text-decoration:none;
-	position:relative;
-	top:-25px;
-	left:100px;
+
+    align-items: center;
   }	
-#a2{
-    font-size:25px;
-	border-radius:25px;
-	padding-right:20px;
-	padding-left:20px;
-	padding-top:10px;
-	padding-bottom:10px;
-    color:black;
-	font-family: Segoe Print;
-	cursor:pointer;
-	transition: all .3s ease-in-out;
-	text-decoration:none;
-	position:relative;
-	top:-25px;
-	right:-400px;
-  }	  
-#a1:hover{
+  .img1
+  {
+         height:100px !important;
+         align-self: center;
+  }
+.a1:hover{
 	color:white;
 	background-color:black;
     box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
     transform: translate3d(0px, -1px, 0px);
 	
 	 }
-#a2:hover{
-	color:white;
-	background-color:black;
-	box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-    transform: translate3d(0px, -1px, 0px);
-	 }		 
-#img1{
-    height:110px;
-    width:115px;
-    position:relative;
-	left:290px;
-	top:15px;
-   }
+
+		 
 #img2{
     height:32px;
     width:32px;
@@ -387,14 +366,11 @@ button{
 <h2>"Keep Calm & Bhangra On"</h2>
 </div>
 <div id="seconddiv">
-<a id="a1" href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a id="a1" href="videos.html">Videos</a>
-<img id="img1" src="images/tlogo.png" alt="not available">
-<a id="a2" href="inductions.html">Inductions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a id="a2" href="contact.html">Contact Us</a>
+<div><a class="a1" href="index.html">Home</a></div>
+<div><a class="a1" href="videos.html">Videos</a></div>
+<div><img class="img1" src="images/tlogo.png" alt="not available"></div>
+<div><a class="a1" href="inductions.html">Inductions</a></div>
+<div><a class="a1" href="contact.html">Contact Us</a></div>
 </div><br>
 <div id="thirddiv" data-aos="fade-up">
 <center><span id="ab">WHO WE ARE</span></center>
