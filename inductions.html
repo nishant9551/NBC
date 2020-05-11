@@ -7,10 +7,95 @@
 <link rel="icon"
       type="image/png"
 	  href="images/tlogo.png">
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	  
 	<link rel="stylesheet" href="./styles.css">
 <style>
+.title
+{
+    width: 55%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr
+}	 
+.titles{
+
+	  display:grid;
+      padding: 0 auto;
+      grid-template-columns: 1fr;
+      margin: 10px;
+      
+	  }	
+ .line{
+	 
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 20px;
+}	  
+.ab{
+    
+    font-size:30px;
+    color:black;
+    font-family: Cooper Black;
+    font-style:bold;
+    height: 40px;
+  }	   
+.abc{
+	
+    font-size:25px;
+    color:black;
+    font-family: Goudy Old Style;
+  }		
+.posterbackground{
+	display: grid;
+    grid-template-columns: 50%;
+    justify-content: space-evenly;
+    align-content: space-around;
+	  background-image: url('images/back.jpg');
+}	
+.inductionposter{
+	  margin: 50px auto;
+	  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2), 6px 6px 6px 6px rgba(0, 0, 0, 0.19);
+	  border-radius: 15px;
+}
+.poster1{
+	margin: 0;    
+}
+.poster1 img
+{
+	width: 100%;
+	margin 0 auto;
+}	
+.brief{
+	margin: 0;
+	height: 4vw;
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-content: center;
+   align-content: center;
+}
+.brief1{
+	margin: 2px auto;
+	color: black;
+	font-size: 1.5vw;
+	font-style: bold;
+	font-family: Cormorant Garamond', serif;
+}
+@media screen and ( max-width:600px )
+{
+  .title
+  {
+      width: 90%;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+  }
+
+  
+}	
 </style>
 </head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <body>
 <div id="main">
 <div id="header"><br><br><br>
@@ -23,8 +108,52 @@
 	<div><img class="img1" src="images/tlogo.png" alt="not available"></div>
 	<div><a class="a1" href="inductions.html">Inductions</a></div>
 	<div><a class="a1" href="contact.html">Contact Us</a></div>
-</div><br>
-<br><br>
+</div>
+<div class="title">
+    <div class="titles" data-aos="fade-up">
+       <div>
+            <center><span class="ab">WORKSHOPS</span></center>
+            <div class="line">
+            </div><br>
+       </div>
+        <center><span class="abc">We host workshops on the regular basis,so that you can able to improve your 
+			Bhangra Skill. </span></center>
+    </div>
+    <div class="titles" data-aos="fade-up">
+        <div>
+            <center><span class="ab">CLASSES</span></center>
+            <div class="line">
+			</div><br><br><br>
+        </div>
+        <center><span class="abc"> With classes on regular basis, you can learn the steps from our certified 
+			instructors in your hometown.
+            </span></center><br>
+       
+    </div>
+    <div class="titles" data-aos="fade-up">
+      <div>
+            <center><span class="ab">CHOREOGRAPHY</span></center>
+            <div class="line">
+            </div><br>
+      </div>
+        <center><span class="abc">Our experienced choreographers will provide you with the best dance moves and 
+			tutorials for your upcoming event.
+            </span></center>
+    </div>
+
+</div>
+<div class="posterbackground">
+<div class="inductionposter" data-aos="zoom-out-down">
+<div class="poster1">
+	<img  src="images/pos.jpg" alt="not shown">	
+</div>	
+<div class="brief">
+	<div class="brief1">
+<center>LOOKING FOR PASSIONATE AND DEDICATED<br> BHANGRACHI</center>	
+     </div>
+</div>
+</div>
+</div>
 	<div class="footer">
 		<div class="logos">
 			<h2 id="nbc">
@@ -55,5 +184,9 @@
 		<h3>© NBC</h3>
 	</div>
 </div>
+<script>
+	AOS.init({
+	duration:1200,});
+  </script>
 </body>
 </html>
