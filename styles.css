@@ -62,10 +62,13 @@
 
 .brandname	
 {
-    width: 70%;
+    width: 60%;
     margin: 50px auto;
+    height: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    align-content: center;
+    justify-content: center;
 }
 .startline{
         
@@ -79,7 +82,10 @@
 		font-size:30px;
         font-family: Lucida Handwriting;
         font-style:bold;
-        color:black;
+        color:black; 
+        display: flex;
+        align-content: center;
+        justify-content: center;
           }		
 .endline{
         height:2.5px;
@@ -138,8 +144,10 @@
     margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr;
-    align-content: center;
-    justify-content: center;
+    align-content:space-around;
+    justify-content:space-around;
+    border:white 1px solid;
+    
 }
 .newsletter input{
      font-style: Bahnschrift SemiBold;
