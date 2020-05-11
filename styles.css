@@ -69,16 +69,18 @@
     grid-template-columns: 1fr 2fr 1fr;
     align-content: center;
     justify-content: center;
+    border: 1px solid black;
 }
 .startline{
         
         height:2.5px;
-		background-image:linear-gradient(200deg,white,orange);
+        background-image:linear-gradient(200deg,white,orange);
+        margin: auto 0;
             }
 
 .brandtext{
         
-        height:60px;
+        min-height:40px;
 		font-size:30px;
         font-family: Lucida Handwriting;
         font-style:bold;
@@ -89,7 +91,8 @@
           }		
 .endline{
         height:2.5px;
-		background-image:linear-gradient(-200deg,white,orange);
+        background-image:linear-gradient(-200deg,white,orange);
+        margin: auto 0;
       		}
 
 .footer
