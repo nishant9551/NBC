@@ -6,35 +6,21 @@
       type="image/png"
 	  href="images/tlogo.png">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	  
+<link rel="stylesheet" href="./styles.css">
 <style>
-#main{
-      width:100%;
-      height:4200px;
-	 
-     }
-#header{
-      width:100%;
-      height:670px;
-      background-image:url('images/2.jpg');
-	  background-repeat: no-repeat;
-	  background-attachment:fixed;
-	  background-size: cover;
-	  opacity:0.95;
-	 }
-#seconddiv{
-      margin: 0 auto;
-      width:90%;
-      padding: 20px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
-      overflow: hidden;
-      }	
-#seconddiv>div
-{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}  
+ 	 
+#thirddiv{
+      width:20%;
+	  height:300px;
+	  position:absolute;
+	  left:250px;
+	  }
+#fourthdiv{
+      width:20%;
+	  height:300px;
+	  position:absolute;
+	  left:620px;
+	  }
 .title
 {
     width: 90%;
@@ -210,32 +196,7 @@ h2{
 	opacity: 2;
 	text-shadow: 2px 2px 8px #145A32;
   }
-.a1{
-    height: 60px;
-    margin-top: 2p;
-    font-size:25px;
-	border-radius:25px;
-    padding: 10px 20px;
-    color:black;
-	font-family: Segoe Print;
-	cursor:pointer;
-	transition: all .3s ease-in-out;
-	text-decoration:none;
 
-    align-items: center;
-  }	
-  .img1
-  {
-         height:150px;
-         align-self: center;
-  }
-.a1:hover{
-	color:white;
-	background-color:black;
-    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-    transform: translate3d(0px, -1px, 0px);
-	
-	 }
 
 		 
 #img2{
@@ -360,23 +321,7 @@ button{
 	position:relative;
 	top:200px;
 }	
-@media screen and ( max-width:600px )
-{
-   .a1
-   {
-       font-size:10px;
-       height: 15px;
-   }
-   .img1{
-       height:40px !important;
-       margin:0 auto;
-   }
-   #seconddiv{
-       grid-template-columns: 0.8fr 0.8fr 1.2fr 0.8fr 0.8fr;
-       width:100% !important;
-       margin:0 auto;
-   }
-}	 
+ 
 </style>
 </head>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -394,28 +339,31 @@ button{
 <div><a class="a1" href="contact.html">Contact Us</a></div>
 </div><br>
 <div class="title">
-<div class="titles" data-aos="fade-up">
-<center><span id="ab">WHO WE ARE</span></center>
-<div style="width:100%;height:2px;background-color:black;">
-</div>
-<center><span id="abc">We are a group of students and young working professionals who are passionate at representing our Punjabi culture.</span></center>
-</div>
-<div class="titles" data-aos="fade-up">
-<center><span id="ab">WHAT WE DO</span></center>
-<div style="width:100%;height:2px;background-color:black;">
-</div><br>
-<center><span id="abc">Our goal has been to bring Bhangra to a mainstream audience. We perform all India as well as teach Bhangra classes.
-</span></center><br>
-<center><img src="images/b.jpg" alt="error" height="60px" width="220px"></center>
-</div>
-<div class="titles" data-aos="fade-up">
-<center><span id="ab">WHY IT MATTERS</span></center>
-<div style="width:100%;height:2px;background-color:black;">
-</div><br>
-<center><span id="abc">We use Bhangra as a vessel to help us stay connected to our culture. We've been given an amazing platform to 
-spread Punjabi culture and hope to continue to do so for many years to come.
-</span></center>
-</div>
+    <div class="titles" data-aos="fade-up">
+        <center><span id="ab">WHO WE ARE</span></center>
+        <div style="width:100%;height:2px;background-color:black;">
+        </div>
+        <center><span id="abc">We are a group of students and young working professionals who are passionate at
+                representing our Punjabi culture.</span></center>
+    </div>
+    <div class="titles" data-aos="fade-up">
+        <center><span id="ab">WHAT WE DO</span></center>
+        <div style="width:100%;height:2px;background-color:black;">
+        </div><br>
+        <center><span id="abc">Our goal has been to bring Bhangra to a mainstream audience. We perform all India as well
+                as teach Bhangra classes.
+            </span></center><br>
+        <center><img src="images/b.jpg" alt="error" height="60px" width="220px"></center>
+    </div>
+    <div class="titles" data-aos="fade-up">
+        <center><span id="ab">WHY IT MATTERS</span></center>
+        <div style="width:100%;height:2px;background-color:black;">
+        </div><br>
+        <center><span id="abc">We use Bhangra as a vessel to help us stay connected to our culture. We've been given an
+                amazing platform to
+                spread Punjabi culture and hope to continue to do so for many years to come.
+            </span></center>
+    </div>
 
 </div>
 
