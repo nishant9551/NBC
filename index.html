@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NIT BHANGRA CREW</title>
 <link rel="icon"
       type="image/png"
@@ -30,66 +32,44 @@
 
 }	 
 .titles{
-      
 	  height:300px;
 	  display:grid;
       padding: 0 auto;
       grid-template-columns: 0.9fr;
       justify-content: center;
-	  }
-#sixthdiv{
-        width:20%;
-        height:2px;
-		position:relative;
-		left:250px;
-		top:400px;
-		background-image:linear-gradient(200deg,white,orange);
-        }	
-#seventhdiv{
-        width:20%;
-        height:160px;
-		position:relative;
-		left:600px;
-		top:370px;
-		font-size:40px;
-        font-family: Lucida Handwriting;
-        font-style:bold;
-        color:black;
-        }
-#eighthdiv{
-        width:20%;
-        height:2px;
-		position:relative;
-		left:950px;
-		top:235px;
-		background-image:linear-gradient(-200deg,white,orange);
-         } 
-#ninthdiv{
+      }
+.aboutouter
+{
+    
+    width: 90%;
+    display: grid;
+    margin: 70px auto;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    justify-content: space-between;
+}
+.pamplate{
         height:300px;
-        width:25%;
-        position:absolute;
-        top:1470px;
-		background-image:url('images/b2.jpg');
-		background-size:cover;
-         }		
-#tenthdiv{
+        background-size:cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+
+         }
+.pamplate img
+{
+    width: 100%;
+    
+    
+}		
+.abouttext{
     height:470px;
-    width:40%;
-    position:absolute;
-    top:1380px;
-	left:450px;
-	overflow:auto;
+	overflow-x: hidden;
 	
          }	
-#eleventhdiv{
-        height:260px;
-        width:20%;
-        position:absolute;
-        top:1470px;
-		right:90px;
-		background-image:url('images/b3.png');
-		background-size:cover;
-      }
+
 #twelfthdiv{
         width:20%;
         height:2.5px;
@@ -117,67 +97,73 @@
 		top:820px;
 		background-image:linear-gradient(-200deg,white,orange);
       		}  
-#fifteendiv{
+.fifteendiv{
          height:470px;
-         width:40%;
-         position:absolute;
-         top:2060px;
-	     left:450px;
-       	 overflow:auto;		
-		 overflow:auto;
+        overflow-x: hidden;
 		 font-size:23px;
          font-family: Goudy Old Style;
          color:grey;
 }
-#sixteendiv{
+.videopanel{
+        margin: 40px auto;
         height:600px;
-		width:99%;
-		position:absolute;
-		top:2600px;
-		background-color:black;
-		}
-#sixteen1{
-        height:450px;
-        width:50%;
+		width: 90%;
         background-color:black;
-        position:relative;
-        top:80px;
-		left:30px;
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 50% 35%;
+        align-content: center;
+        justify-content: space-between;
+		}
+.videocontent{
+        height:450px;
+        background-color:black;
         box-shadow: 10px 10px 5px 5px #716745;
          }		
-#sixteen2{
-        height:300px;
-        width:40%;      
-        position:relative;
-        top:-300px;
-        left:900px;
+.videotext{
+        
 		color:#EECE63;
 		font-family: castellar;
 		font-size:40px;
-		font-weight:bold;
+        font-weight:bold;
+        display: flex;
+        justify-content: center;
+        align-content: center;
         }
-#seventeendiv{
+.poster{
+        margin: 80px auto;
         height:360px;
-        width:99%;
-        position:absolute;
-        top:3300px;
-		background-image:url('images/i6.jpg');
-	    background-repeat: no-repeat;
-	    //background-attachment:fixed;
-	    background-size: cover;
-		color:#FEF7F7;
-		font-family: Segoe Print;
-		font-size:40px;
-		font-weight:bold;
-		
-            }		
-#eightteendiv{
-        height:400px;
-        width:99%;
-        background-color:#050606;
-        position:absolute;
-        top:3810px;
-          }		
+        width: 100%;
+        display: grid;;
+        justify-content: center;
+        align-content: center;
+        
+        }
+.poster img
+{
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
+}		
+.poster h1
+{
+    width: 100%;
+    position: relative !important;
+    top: -300px;
+    left: 0;
+    color:#FEF7F7;
+	font-family: Segoe Print;
+	font-size:40px;
+    font-weight:bold;
+     border: none;
+    text-decoration: none;
+     z-index: 99;
+     float: left;
+
+}
+	
 h1{
     font-size:60px;
     color:white;
@@ -199,48 +185,8 @@ h2{
 
 
 		 
-#img2{
-    height:32px;
-    width:32px;
-    position:relative;
-	top:190px;
-	left:-70px;
-      }	
-#img3{
-    height:30px;
-    width:30px;
-    position:relative;
-	top:190px;
-	left:-50px;
-      }	
-#img4{
-    height:40px;
-    width:40px;
-    position:relative;
-	top:195px;
-	left:-30px;
-      }	
-#img5{
-    height:44px;
-    width:42px;
-    position:relative;
-	top:197px;
-	left:-10px;
-      }		
-#img6{
-    height:230px;
-    width:160px;
-    position:absolute;
-    top:2200px;
-    left:100px;
-  }	
-#img7{
-    height:200px;
-    width:210px;
-    position:absolute;
-    top:2230px;
-    left:1200px;
-  }	  
+
+
 #ab{
     font-size:40px;
     color:black;
@@ -276,50 +222,17 @@ h2{
 	font-family: Segoe Print;
 	font-style: bold;
          }			
-#nbc {
-       font-size:20px;
-	   color:white;
-	   font-family: Bahnschrift SemiBold;
-	   position:relative;
-	   top:130px;
-	   left:130px;
-	   }
-#signin{
-        font-size:20px;
-	   color:white;
-	   font-family: Bahnschrift SemiBold;
-	   position:relative;
-	   top:70px;
-	   left:780px;
-}	
-input{
-     font-style: Bahnschrift SemiBold;
-     padding:10px;
-	 position:relative;
-	   top:100px;
-	   right:-1050px;
-   }
-button{
-     font-style: Bahnschrift SemiBold;
-	 border:1px solid white;
-	 color:white;
-	 font-style:bold;
-     padding-left:15px; 
-     padding-right:15px; 
-     padding-bottom:12px; 
-     padding-top:12px; 
-	 position:relative;
-	 top:100px;
-	 right:-1050px;
-	 background-color:#050606;
-	 cursor:pointer;
-	 }
-#copyright{
-    color:white;
-	font-size:20px;
-	font-family: Gabriola;
-	position:relative;
-	top:200px;
+
+
+
+
+
+@media screen and ( max-width:700px )
+{
+  .title
+  {
+      grid-template-columns: 1fr;
+  }
 }	
  
 </style>
@@ -338,6 +251,7 @@ button{
 <div><a class="a1" href="inductions.html">Inductions</a></div>
 <div><a class="a1" href="contact.html">Contact Us</a></div>
 </div><br>
+
 <div class="title">
     <div class="titles" data-aos="fade-up">
         <center><span id="ab">WHO WE ARE</span></center>
@@ -369,87 +283,154 @@ button{
 
 
 <br><br><br><br>
-<div id="sixthdiv">
+<div class="brandname">
+    <div class="startline">
+    </div>
+    <div class="brandtext" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <center><span id="abt">About Us</span></center>
+    </div>
+    <div class="endline">
+    </div>
 </div>
-<div id="seventhdiv" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-<center><span id="abt">About Us</span></center>
+
+<div class="aboutouter">
+    <div class="pamplate">
+        <img src="images/b2.jpg" >
+    </div>
+    <div class="abouttext" data-aos="zoom-out-up">
+        <center><span id="about">Welcome to the official website of NIT BHANGRA CREW. We are a group of students located in
+                Kurukshetra, Haryana – India,
+                that believe in having a good time while doing what we love. We all share a great admiration for the art of
+                Bhangra and together have
+                formed an undeniable foundation for the passion we share. Each member has been a performer and entertainer
+                for several years and has
+                something different and unique to contribute to the team.<br><br>
+                Bhangra is an exciting, energetic, colorful dance form! But it also can be intimidating for newcomers. Our
+                vision is to make Bhangra more
+                accessible for all people, regardless of skill level. Our classes cater specifically to beginner levels,
+                advanced levels, and everything
+                in between!.As a dance form, we feel that people should have an option to learn Bhangra consitently,
+                regardless of their location. <br>
+                NBC IS A DANCE AND FITNESS CREW FOCUSED ON BRINGING BHANGRA TO EVERYONE. WE BELIEVE THAT BHANGRA BREAKS
+                BARRIERS.</span></center>
+    </div>
+<div class="pamplate">
+    <img src="images/b3.png">
 </div>
-<div id="eighthdiv">
 </div>
-<div id="ninthdiv">
+
+
+
+<div class="brandname">
+    <div class="startline">
+    </div>
+    <div class="brandtext" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <center><span id="his">History of Bhangra</span></center>
+    </div>
+    <div class="endline">
+    </div>
 </div>
-<div id="tenthdiv" data-aos="zoom-out-up">
-<center><span id="about">Welcome to the official website of NIT BHANGRA CREW. We are a group of students located in Kurukshetra, Haryana – India, 
-that believe in having a good time while doing what we love. We all share a great admiration for the art of Bhangra and together have 
-formed an undeniable foundation for the passion we share. Each member has been a performer and entertainer for several years and has 
-something different and unique to contribute to the team.<br><br>
-Bhangra is an exciting, energetic, colorful dance form! But it also can be intimidating for newcomers. Our vision is to make Bhangra more 
-accessible for all people, regardless of skill level. Our classes cater specifically to beginner levels, advanced levels, and everything 
-in between!.As a dance form, we feel that people should have an option to learn Bhangra consitently, regardless of their location. <br>
-NBC IS A DANCE AND FITNESS CREW FOCUSED ON BRINGING BHANGRA TO EVERYONE. WE BELIEVE THAT BHANGRA BREAKS BARRIERS.</span></center>
+<div class="aboutouter">
+    <div class="pamplate">
+        <img id="img6" src="images/b1.png" alt="error">
+    </div>
+    <div class="abouttext fifteendiv" data-aos="zoom-out-up">
+        <center>Bhangra is an energetic, folk dance and music form that originated from Punjab, India. Today, it’s the
+            newest dance, music, and
+            fitness phenomenon spreading all over the world. Bhangra has made its way to America’s Got Talent, the London
+            Olympics, and even the
+            White House.<br><br>The first mentions of Bhangra as a dance entity start to show up in historical records
+            around the late-1800s.
+            The current style and form of Bhangra formed together in the 1940s and has evolved since. It originated as a
+            folk dance celebrated
+            during the time of the harvest. Bhangra is traditionally danced to the dhol instrument, a large drum, and
+            boliyan, short sets of
+            lyrics that describe scenes or stories from Punjab. These lyrics most commonly reference themes of love,
+            patriotism, strength, and
+            celebration.<br><br>Bhangra is an amalgamation of various folk dances from all across the region of Punjab, many
+            of which can trace
+            their roots far back before the existence of the term Bhangra in the late 1800s. These dances include Sammi,
+            Jhummar, Luddi, Giddha,
+            Dhamaal, Sialkot, and many more. For example, Sialkoti developed in the region of Sialkot, and is performed with
+            one leg in the air.
+            Jhummar, from Jhang-Sial, can arguably be traced back to the Aryan period and consists of a 16-beat dhol cycle.
+            Sammi is a dance
+            specifically dedicated to singing about a fabled girl. In the 1940s, communication between villages and regions
+            in Punjab sharply
+            increased due to independence movements across the area. As a result, due to several celebrated dance pioneers,
+            these dances were
+            shared, both in times of celebration and to ease in times of hardship. Each region quickly adapted the shared
+            dance forms into
+            their own folk traditions. Eventually, a standard Bhangra routine across Punjab came to consist of certain
+            components, such as a
+            Jhummar segment, or a Dhamaal segment. Due to the exponential rise in communication in Punjab and across India,
+            Bhangra spread
+            throughout the country. The Bollywood industry began to depict Bhangra in its movies while celebrated Bhangra
+            pioneers emerged to
+            actively spread and share the dance form. As a result, Bhangra music is now quite mainstream throughout India,
+            and throughout the
+            world!</center>
+    </div>
+    <div class="pamplate">
+        <img id="img7" src="images/b10.jfif" alt="error">
+    </div>
+
 </div>
-<div id="eleventhdiv">
-</div>
-<div id="twelfthdiv">
-</div>
-<img id="img6" src="images/b1.png" alt="error">
-<img id="img7" src="images/b10.jfif" alt="error">
-<div id="thirteendiv" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-<center><span id="his">History of Bhangra</span></center>
-</div>
-<div id="fourteendiv">
-</div>
-<div id="fifteendiv" data-aos="zoom-out-up" >
-<center>Bhangra is an energetic, folk dance and music form that originated from Punjab, India. Today, it’s the newest dance, music, and 
-fitness phenomenon spreading all over the world. Bhangra has made its way to America’s Got Talent, the London Olympics, and even the
- White House.<br><br>The first mentions of Bhangra as a dance entity start to show up in historical records around the late-1800s. 
- The current style and form of Bhangra formed together in the 1940s and has evolved since. It originated as a folk dance celebrated
- during the time of the harvest.  Bhangra is traditionally danced to the dhol instrument, a large drum, and boliyan, short sets of
- lyrics that describe scenes or stories from Punjab. These lyrics most commonly reference themes of love, patriotism, strength, and
- celebration.<br><br>Bhangra is an amalgamation of various folk dances from all across the region of Punjab, many of which can trace 
- their roots far back before the existence of the term Bhangra in the late 1800s. These dances include Sammi, Jhummar, Luddi, Giddha, 
- Dhamaal, Sialkot, and many more. For example, Sialkoti developed in the region of Sialkot, and is performed with one leg in the air.
- Jhummar, from Jhang-Sial, can arguably be traced back to the Aryan period and consists of a 16-beat dhol cycle. Sammi is a dance
- specifically dedicated to singing about a fabled girl. In the 1940s, communication between villages and regions in Punjab sharply 
- increased due to independence movements across the area. As a result, due to several celebrated dance pioneers, these dances were 
- shared, both in times of celebration and to ease in times of hardship. Each region quickly adapted the shared dance forms into 
- their own folk traditions. Eventually, a standard Bhangra routine across Punjab came to consist of certain components, such as a
- Jhummar segment, or a Dhamaal segment. Due to the exponential rise in communication in Punjab and across India, Bhangra spread 
- throughout the country. The Bollywood industry began to depict Bhangra in its movies while celebrated Bhangra pioneers emerged to 
- actively spread and share the dance form. As a result, Bhangra music is now quite mainstream throughout India, and throughout the 
- world!</center>
-</div>
-<div id="sixteendiv">
-<div id="sixteen1" data-aos="flip-left"
+
+
+<div  class="videopanel">
+<div  class="videocontent" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/7qXyizixV-E?start=34" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div id="sixteen2" data-aos="zoom-out">
-<center>Watch Our Full<br><br> Performance Of<br><br> "BHANGRA ARENA 2020"</center>
+<div  class="videotext" data-aos="zoom-out">
+Watch Our Full<br><br> Performance Of<br><br> "BHANGRA ARENA 2020"
 </div>
 </div>
-<div id="seventeendiv">
-<center><br><br>"BHANGRA is a language beyond words, expressing that for which we have no words."</center>
+<br>
+<br>
+
+<div  class="poster">
+    <img src="images/i6.jpg" >
+<h1>"BHANGRA is a language beyond words, expressing that for which we have no words."</h1>
 </div>
-<div id="eightteendiv">
-<span id="nbc">NIT BHANGRA CREW</span>
-<img id="img2" src="images/insta.png" alt="error">
-<img id="img3" src="images/fb.png" alt="error">
-<img id="img4" src="images/gmail.png" alt="error">
-<img id="img5" src="images/youtube.png" alt="error">
-<span id="signin">NEWSLETTER</span>
-<form>
-<input type="text" id="fname" name="fname" placeholder="Email Address">&nbsp;&nbsp;<button for="fname">Sign UP</button>
-<center><span id="copyright">© NBC</span></center>
-</form>
+
+    <div class="footer">
+                <div class="logos">
+                    <h2 id="nbc">
+                        NIT BHANGRA CREW
+                    </h2>
+                    <div class="icons">
+                        <img class="icon" src="images/insta.png" alt="error">
+                        <img class="icon" src="images/fb.png" alt="error">
+                        <img class="icon" src="images/gmail.png" alt="error">
+                        <img class="icon" src="images/youtube.png" alt="error">
+                    </div>
+                </div>
+        <div class="newsletter">
+                <div id="signin">
+                NEWSLETTER
+                </div>
+                <div class="form">
+                    <form>
+                        <input type="text" id="fname" name="fname" placeholder="Email Address">&nbsp;&nbsp;<button for="fname">Sign
+                            UP</button>
+                        <center></center>
+                    </form>
+                </div>
+        </div>
+    </div>
+
+        <div class="copy">
+            <h3>© NBC</h3>
+        </div>
 </div>
-</div>
+
+
+
+
 <script>
   AOS.init({
   duration:1200,});

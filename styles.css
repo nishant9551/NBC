@@ -14,7 +14,7 @@
     margin: 0 auto;
       width:90%;
       height:150    px;
-      padding: 20px;
+      padding: 10px;
       display: grid;
       grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
       }	
@@ -27,17 +27,16 @@
 
 
 .a1{
-    height: 60px;
-    margin-top: 2p;
+    height: 40px;
+    margin-top: 2px;
     font-size:25px;
 	border-radius:25px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     color:black;
 	font-family: Segoe Print;
 	cursor:pointer;
 	transition: all .3s ease-in-out;
 	text-decoration:none;
-
     align-items: center;
   }	
   .img1
@@ -51,13 +50,120 @@
     box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
     transform: translate3d(0px, -1px, 0px);
 	
-	 }
+     }
+     
 
+.brandname	
+{
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.startline{
+        
+        height:2.5px;
+		background-image:linear-gradient(200deg,white,orange);
+            }
 
+.brandtext{
+        
+        height:60px;
+		font-size:30px;
+        font-family: Lucida Handwriting;
+        font-style:bold;
+        color:black;
+          }		
+.endline{
+        height:2.5px;
+		background-image:linear-gradient(-200deg,white,orange);
+      		}
 
+.footer
+{
+    height:400px;
+    width:100%;
+    margin: 0 auto;
+    margin-top: 0;
+    background-color:#050606;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-content: space-around;
 
+}
+.logos
+{
+    margin: 100px auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+}
 
-@media screen and ( max-width:600px )
+.icons
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+
+}
+.icon{
+    height:32px;
+    width:32px;
+      }	
+#nbc {
+       font-size:20px;
+	   color:white;
+	   font-family: Bahnschrift SemiBold;
+       }
+#signin{
+        font-size:20px;
+	   color:white;
+	   font-family: Bahnschrift SemiBold;
+	  
+}	
+.newsletter
+{
+    width: 100%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+}
+.newsletter input{
+     font-style: Bahnschrift SemiBold;
+     padding:10px;
+
+   }
+.newsletter button{
+     font-style: Bahnschrift SemiBold;
+	 border:1px solid white;
+	 color:white;
+	 font-style:bold;
+     padding-left:15px; 
+     padding-right:15px; 
+     padding-bottom:12px; 
+     padding-top:12px; 
+	 cursor:pointer;
+     }
+
+.copy{
+    height: 70px;
+    color:white;
+    font-size:20px;
+    font-family: Gabriola;
+    background-color:#050606;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}	
+
+@media screen and ( max-width:700px )
 {
    .a1
    {
@@ -71,6 +177,6 @@
    #seconddiv{
        grid-template-columns: 0.8fr 0.8fr 1.2fr 0.8fr 0.8fr;
        width:100% !important;
-       margin:0 auto;
+       margin:0 !important;
    }
 }	
