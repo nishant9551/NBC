@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NIT BHANGRA CREW</title>
 <link rel="icon"
       type="image/png"
@@ -104,6 +106,10 @@ h2{
     {
         grid-template-columns: 1fr !important;
     }
+    .post1,.post2
+    {
+        grid-template-columns: 90%;
+    }
 }
 </style>
 
@@ -116,7 +122,13 @@ h2{
                     if(el === el1)
                         el1.play();
                     else
-                        el1.pause();
+                        {
+                            
+                            
+                            el1.pause();
+                            el1.load();
+
+                        }
                 });
             }
         });

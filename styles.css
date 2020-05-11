@@ -1,5 +1,8 @@
 #main{
       width:100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
      }
 #header{
       width:100%;
@@ -81,6 +84,7 @@
 
 .footer
 {
+
     height:400px;
     width:100%;
     margin: 0 auto;
@@ -163,7 +167,7 @@
     text-align: center;
 }	
 
-@media screen and ( max-width:700px )
+@media screen and ( max-width:600px )
 {
    .a1
    {
@@ -179,4 +183,13 @@
        width:100% !important;
        margin:0 !important;
    }
+   .footer
+{
+    padding: 20px 0;
+    
+ 
+    grid-template-columns: 90%;
+ 
+
+}
 }	
