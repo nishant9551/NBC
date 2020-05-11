@@ -112,11 +112,12 @@
 .logos
 {
     margin: 100px auto;
-    width: 90%;
+    width: 60%;
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
     justify-content: center;
+    
 }
 
 .icons
@@ -124,11 +125,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 20px;
-
+   
 }
 .icon{
     height:32px;
     width:32px;
+   
       }	
 #nbc {
        font-size:20px;
@@ -170,7 +172,7 @@
      padding-right:15px; 
      padding-bottom:12px; 
      padding-top:12px; 
-	 cursor:pointer;
+     cursor:pointer;
      }
 
 .copy{
@@ -186,7 +188,7 @@
     text-align: center;
 }
 h1{
-    font-size:5vw;
+    font-size:4.5vw;
     color:white;
     font-family: Cooper Black;
 	text-align:center;
@@ -195,7 +197,7 @@ h1{
 	text-shadow: 2px 2px 8px #145A32;
   }	
 h2{
-    font-size:3vw;
+    font-size:2.5vw;
     color:white;                                             
     font-family: Ink Free;
 	text-align:center;
