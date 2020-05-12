@@ -8,7 +8,8 @@
       width:100%;
       margin:0 !important;
       padding:0 !important;
-
+    overflow: hidden;  
+      
      }
 #header{
       width:100%;
@@ -26,12 +27,6 @@
       padding: 10px;
       display: grid;
       grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
-      position: sticky;
-      background-color: white;
-      z-index: 9999;
-
-      top:0;
-      
             }	
 #seconddiv>div
 {
@@ -229,7 +224,6 @@ h2{
        margin:0 auto;
    }
    #seconddiv{
-       height: 70px;
        grid-template-columns: 0.8fr 0.8fr 1.2fr 0.8fr 0.8fr;
        width:100% !important;
        margin:0 !important;
