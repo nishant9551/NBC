@@ -52,6 +52,7 @@
     justify-content: space-evenly;
     align-content: space-around;
 	  background-image: url('images/back.jpg');
+	
 }	
 .inductionposter{
 	  margin: 50px auto;
@@ -81,12 +82,117 @@
 	font-style: bold;
 	font-family: Cormorant Garamond', serif;
 }
+.formback{
+	margin: 5vw 0;
+	
+	display: grid;
+	grid-template-columns: 0.7fr;
+	justify-content: center;
+	background-color: black
+	
+	
+}
+.container{
+	  
+	  margin: 100px;
+	  box-shadow: 10px 6px 6px 6px rgba(207, 205, 205, 0.2), 6px 6px 6px 6px rgba(71, 71, 71, 0.19);
+	  border: 2px solid black;
+	  border-radius: 10px;
+	  
+}
+.joinus{
+	
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 2.5vw;
+	font-family: castellar;
+	text-decoration: underline;
+	color: #D1A64B;
+	
+}
+.formdiv{
+	
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+;
+	
+}
+form{
+	padding: 20px;
+}
+
+.name{
+	
+	margin-top: 1vw;
+	width: 15vw;
+	color:#D1A64B;
+	
+	font-size: 1.5vw;
+	font-family: Goudy Old Style;
+	font-weight: bold;
+	}
+input{
+	border: none;
+	border-bottom: 1px solid#D1A64B;
+	padding: 0.5vw;
+	font-size: 1vw;
+	font-family: comic sans ms;
+	background: transparent;
+	color: #D1A64B;
+}
+button{
+	padding: 0.5vw;
+	font-size: 1vw;
+	font-family: comic sans ms;
+	background-color: #D1A64B;
+}
+.option{
+	padding: 0.5vw;
+	font-size: 1vw;
+	font-family: comic sans ms;
+	color: #D1A64B;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #D1A64B;
+}
+.radio{
+	font-size: 1vw;
+	font-family: comic sans ms;
+}
+#student{
+	
+	margin-top: 1vw;
+	width: 15vw;
+	color:#D1A64B;
+	font-weight: bold;
+	font-size: 1.5vw;
+	font-family: Goudy Old Style;
+	}
+.whyjoin{
+	height:5vw;
+	font-size: 1vw;
+	font-family: comic sans ms;
+	border: 1px solid #D1A64B;
+}
+label{
+	color: #D1A64B
+}
 @media screen and ( max-width:600px )
 {
   .title
   {
       width: 90%;
       grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+  }
+  .container{
+	  width: 100%;
+	  margin: 15vw auto;
+      grid-template-columns: 0.7r;
       align-items: center;
       justify-content: center;
   }
@@ -152,6 +258,60 @@
 <center>LOOKING FOR PASSIONATE AND DEDICATED<br> BHANGRACHI</center>	
      </div>
 </div>
+</div>
+</div>
+<div class="formback">
+<div class="container" data-aos="flip-left"
+data-aos-easing="ease-out-cubic"
+data-aos-duration="2000">
+	<div class="joinus">
+		<h3>Join Our Crew</h3>
+	</div>
+	<div class="formdiv">
+		<form>
+			
+				<h4 class="name">Name:</h4>
+				<input type="text" class="firstname" name="first_name" placeholder="First Name"><br><br>
+				<input type="text" class="lastname" name="last_name" placeholder="Last Name">
+			<br><br>
+
+			<h4 class="name">Your Branch:</h4>
+			<input type="text" class="branch" name="branch">
+
+            <h4 class="name">Year:</h4>
+			<select class="option" name="year">
+				<option disabled="disabled" selected="selected">Choose Your Year</option>
+				<option>1st</option>
+				<option>2nd</option>
+				<option>3rd</option>
+				<option>4th</option>
+			</select>
+
+			<h4 class="name">Email id:</h4>
+			<input type="text" name="email" class="email">
+
+			<h4 class="name">Mobile no.:</h4>
+			<input type="text" name="area_code" class="code">
+
+			<h4 id="student">Are You Beginner?</h4><br>
+			<label class="radio">
+				<input type="radio" >
+				
+				Yes
+			</label>
+			<label class="radio">
+				<input type="radio">
+			
+				No
+				</label>
+
+		    <h4 class="name">Why You Want To Join?</h4>
+			<input type="text" class="whyjoin" name="whyjoin"><br><br>
+		 
+			<button type="submit">Submit</button>
+
+		</form>
+	</div>
 </div>
 </div>
 	<div class="footer">
