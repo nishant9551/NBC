@@ -168,7 +168,7 @@ button{
 	width: 15vw;
 	color:#D1A64B;
 	font-weight: bold;
-	font-size: 1.5vw;
+	font-size: 1.8vw;
 	font-family: Goudy Old Style;
 	}
 .whyjoin{
@@ -219,6 +219,23 @@ button,
   
 }	
 </style>
+<script type="text/javascript">
+	function validate(){
+		var firstname = document.getElementsByClassName("firstname").value;
+        var lastname = document.getElementsByClassName("lastname").value;
+        var email = document.getElementsByClassName("email").value;
+		var mobile = document.getElementsByClassName("code").value;
+		var joinus = document.getElementsByClassName("whyjoin").value;
+        if(firstname.length<3)
+		{
+			alert('Name should contain atleast 4 characters');
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+</script>
 </head>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <body>
@@ -287,15 +304,15 @@ button,
 			<h3>Join Our Crew</h3>
 		</div>
 		<div class="formdiv">
-			<form id="induc">
+			<form onsubmit="return validate();" id="induc">
 				
 					<h4 class="name">Name:</h4>
-					<input type="text" class="firstname" name="first_name" placeholder="First Name"><br><br>
-					<input type="text" class="lastname" name="last_name" placeholder="Last Name">
+					<input type="text" class="firstname" name="first_name" placeholder="First Name" required><br><br>
+					<input type="text" class="lastname" name="last_name" placeholder="Last Name" required>
 				<br><br>
 
 				<h4 class="name">Your Branch:</h4>
-				<input type="text" class="branch" name="branch">
+				<input type="text" class="branch" name="branch" required>
 
 				<h4 class="name">Year:</h4>
 				<select class="option" name="year">
@@ -307,10 +324,10 @@ button,
 				</select>
 
 				<h4 class="name">Email id:</h4>
-				<input type="text" name="email" class="email">
+				<input type="email" name="email" class="email" required>
 
 				<h4 class="name">Mobile no.:</h4>
-				<input type="text" name="area_code" class="code">
+				<input type="text" name="area_code" class="code" required>
 
 				<h4 id="student">Are You Beginner?</h4><br>
 				<label class="radio">
@@ -325,7 +342,7 @@ button,
 					</label>
 
 				<h4 class="name">Why You Want To Join?</h4>
-				<input type="text" class="whyjoin" name="whyjoin"><br><br>
+				<input type="text" class="whyjoin" name="whyjoin" required><br><br>
 			
 				<button type="submit">Submit</button>
 
@@ -367,6 +384,7 @@ button,
 		<h3>© NBC</h3>
 	</div>
 </div>
+
 <script>
 	AOS.init({
 	duration:1200,});
