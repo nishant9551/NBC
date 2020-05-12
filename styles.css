@@ -4,8 +4,9 @@
 }
 #main{
       width:100%;
-      margin: 0;
-      padding: 0;
+      margin:0;
+      padding:0;
+      overflow: hidden;
       
      }
 #header{
@@ -99,7 +100,7 @@
 .footer
 {
 
-    height:400px;
+    height:auto;
     width:100%;
     margin: 0 auto;
     margin-top: 0;
@@ -113,7 +114,7 @@
 .logos
 {
     margin: 100px auto;
-    width: 60%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
@@ -126,6 +127,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 20px;
+    margin: 50px auto;
+    width: 50%;
    
 }
 .icon{

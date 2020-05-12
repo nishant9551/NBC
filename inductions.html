@@ -10,6 +10,7 @@
 	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	  
 	<link rel="stylesheet" href="./styles.css">
 <style>
+
 .title
 {
     width: 55%;
@@ -65,7 +66,7 @@
 .poster1 img
 {
 	width: 100%;
-	margin 0 auto;
+	margin: 0 auto;
 }	
 .brief{
 	margin: 0;
@@ -83,7 +84,7 @@
 	font-family: Cormorant Garamond', serif;
 }
 .formback{
-	margin: 5vw 0;
+	margin: 6vw 0;
 	
 	display: grid;
 	grid-template-columns: 0.7fr;
@@ -105,7 +106,7 @@
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	font-size: 2.5vw;
+	font-size: 3vw;
 	font-family: castellar;
 	text-decoration: underline;
 	color: #D1A64B;
@@ -129,12 +130,11 @@ form{
 	margin-top: 1vw;
 	width: 15vw;
 	color:#D1A64B;
-	
-	font-size: 1.5vw;
+	font-size: 2vw;
 	font-family: Goudy Old Style;
 	font-weight: bold;
 	}
-input{
+#induc input{
 	border: none;
 	border-bottom: 1px solid#D1A64B;
 	padding: 0.5vw;
@@ -192,10 +192,29 @@ label{
   .container{
 	  width: 100%;
 	  margin: 15vw auto;
-      grid-template-columns: 0.7r;
+      grid-template-columns: 1r;
       align-items: center;
       justify-content: center;
   }
+
+  .formback{
+
+	grid-template-columns: 0.9fr !important;
+	
+}
+.joinus,
+.name,
+input,
+button,
+.option,
+.radio,
+#student,
+.whyjoin{
+	font-size: 4vw !important;
+	
+
+}
+
 
   
 }	
@@ -261,58 +280,62 @@ label{
 </div>
 </div>
 <div class="formback">
-<div class="container" data-aos="flip-left"
-data-aos-easing="ease-out-cubic"
-data-aos-duration="2000">
-	<div class="joinus">
-		<h3>Join Our Crew</h3>
-	</div>
-	<div class="formdiv">
-		<form>
-			
-				<h4 class="name">Name:</h4>
-				<input type="text" class="firstname" name="first_name" placeholder="First Name"><br><br>
-				<input type="text" class="lastname" name="last_name" placeholder="Last Name">
-			<br><br>
-
-			<h4 class="name">Your Branch:</h4>
-			<input type="text" class="branch" name="branch">
-
-            <h4 class="name">Year:</h4>
-			<select class="option" name="year">
-				<option disabled="disabled" selected="selected">Choose Your Year</option>
-				<option>1st</option>
-				<option>2nd</option>
-				<option>3rd</option>
-				<option>4th</option>
-			</select>
-
-			<h4 class="name">Email id:</h4>
-			<input type="text" name="email" class="email">
-
-			<h4 class="name">Mobile no.:</h4>
-			<input type="text" name="area_code" class="code">
-
-			<h4 id="student">Are You Beginner?</h4><br>
-			<label class="radio">
-				<input type="radio" >
+	<div class="container" data-aos="flip-left"
+	data-aos-easing="ease-out-cubic"
+	data-aos-duration="2000">
+		<div class="joinus">
+			<h3>Join Our Crew</h3>
+		</div>
+		<div class="formdiv">
+			<form id="induc">
 				
-				Yes
-			</label>
-			<label class="radio">
-				<input type="radio">
-			
-				No
+					<h4 class="name">Name:</h4>
+					<input type="text" class="firstname" name="first_name" placeholder="First Name"><br><br>
+					<input type="text" class="lastname" name="last_name" placeholder="Last Name">
+				<br><br>
+
+				<h4 class="name">Your Branch:</h4>
+				<input type="text" class="branch" name="branch">
+
+				<h4 class="name">Year:</h4>
+				<select class="option" name="year">
+					<option disabled="disabled" selected="selected">Choose Your Year</option>
+					<option>1st</option>
+					<option>2nd</option>
+					<option>3rd</option>
+					<option>4th</option>
+				</select>
+
+				<h4 class="name">Email id:</h4>
+				<input type="text" name="email" class="email">
+
+				<h4 class="name">Mobile no.:</h4>
+				<input type="text" name="area_code" class="code">
+
+				<h4 id="student">Are You Beginner?</h4><br>
+				<label class="radio">
+					<input type="radio" >
+					
+					Yes
 				</label>
+				<label class="radio">
+					<input type="radio">
+				
+					No
+					</label>
 
-		    <h4 class="name">Why You Want To Join?</h4>
-			<input type="text" class="whyjoin" name="whyjoin"><br><br>
-		 
-			<button type="submit">Submit</button>
+				<h4 class="name">Why You Want To Join?</h4>
+				<input type="text" class="whyjoin" name="whyjoin"><br><br>
+			
+				<button type="submit">Submit</button>
 
-		</form>
+			</form>
+		</div>
 	</div>
-</div>
+
+
+
+
 </div>
 	<div class="footer">
 		<div class="logos">
