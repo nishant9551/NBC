@@ -22,16 +22,14 @@
 #seconddiv{
     margin: 0 auto;
       width:100%;
-      height:150px;
+      height:80px;
       padding: 10px;
       display: grid;
       grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
       position: sticky;
       background-color: white;
       z-index: 9999;
-
       top:0;
-      
             }	
 #seconddiv>div
 {
@@ -56,7 +54,7 @@
   }	
   .img1
   {
-         height:150px !important;
+         height:70px !important;
     
   }
 .a1:hover{
