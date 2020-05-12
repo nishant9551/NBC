@@ -22,11 +22,15 @@
 	 }
 #seconddiv{
     margin: 0 auto;
-      width:100%;
+      width:90%;
       height:150px;
       padding: 10px;
       display: grid;
       grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+<<<<<<< HEAD
+=======
+     
+>>>>>>> parent of fbae833... nav bar sticky
             }	
 #seconddiv>div
 {
