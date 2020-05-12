@@ -110,7 +110,7 @@
     grid-template-columns: 40% 40%;
     justify-content: space-around;
     align-content: space-around;
-
+    
 }
 .logos
 {
@@ -231,10 +231,7 @@ h2{
    .footer
 {
     padding: 20px 0;
-    
- 
     grid-template-columns: 90%;
- 
-
 }
+
 }	
