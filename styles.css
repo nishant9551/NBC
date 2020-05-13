@@ -4,20 +4,17 @@
     box-sizing: border-box;
     
 }
-body
+
+body,html
 {
     overflow: hidden;
     overflow-y: scroll;
+    width: 100%;
 }
-#main{
-      width:100%;
-      margin:0 !important;
-      padding:0 !important;
-    overflow: hidden;  
-      
-     }
+
 #header{
-      width:100%;
+      width:100% !important;
+      margin: 0;
       height:41vw;
       background-image:url('images/2.jpg');
 	  background-repeat: no-repeat;
@@ -70,7 +67,7 @@ body
 
 .brandname	
 {
-    width: 60%;
+    width: 70%;
     margin: 50px auto;
     height: 60px;
     display: grid;
