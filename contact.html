@@ -9,8 +9,10 @@
 	  href="images/tlogo.png">
 	<link rel="stylesheet" href="./styles.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	  
-	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Quattrocento:wght@700&family=Raleway:wght@600&display=swap" 
-	rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Aladin&family=Balsamiq+Sans&family
+	=Boogaloo&family=Buda:wght@300&family=Caveat:wght@700&family=Chewy&family=Cinzel:wght@400;700&family=Cookie&family=Cor
+	morant+Upright:wght@600;700&family=Handlee&family=Nanum+Pen+Script&family=Open+Sans+Condensed:wght@300&family=Poiret+One&
+	family=Raleway:wght@500&family=Ultra&family=Yeseva+One&display=swap" rel="stylesheet">
 <style>
 .container{
 	margin: 2vw 0;
@@ -49,12 +51,14 @@
 	text-align: center;
 	color: #424949;
 	font-size: 2.6vw;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Buda', cursive;
+	font-weight: bold;
 	text-decoration: underline;
 }
 .contform{
 	
-	margin: 0;
+	margin: 0 1vw;
+	
 }
 
 .details{
@@ -71,7 +75,9 @@
 	text-align: center;
 	color: #424949;
 	font-size: 2.6vw;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Buda', cursive;
+	font-weight: bold;
+	font-weight: bold;
 	text-decoration: underline;
 	
 }
@@ -83,6 +89,7 @@
 	justify-content: center;
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
     background-color: #ABEBC6;
+	
 }
 .mailicon{
 	
@@ -100,7 +107,7 @@
 	word-wrap: break-word;
 	font-size: 1.4vw;
 	margin: 1.2vw 0;
-	font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Overlock', cursive;
 }
 .captain{
 	
@@ -114,17 +121,53 @@
 	  margin: 0;
 	  border-radius: 7px;
 	  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
-    
+      
+}
+.me{
+	
+	margin: 2vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.me img{
+	  height:  26vw;
+	  margin: 0;
+	  border-radius: 7px;
+	  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
+      
+}
+.developer{
+	
+	margin: 2vw auto;
+	background-color: white;
+	width: 70%;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
+	border-radius: 2vw;
+}
+.aboutme{
+	
+	margin: 1vw auto;
+	display: flex;
+	padding: 1vw;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
+    background-color: #ABEBC6;
+	
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 2vw;
 }
 form{
-	margin: 2vw;
+	margin: 4vw;
 }
 #contactform input{
 	border: 1px solid #848484;
 	border-radius: 5px;
 	padding: 0.5vw;
 	font-size: 1vw;
-	font-family: comic sans ms;
+	font-family: 'Poiret One', cursive;
 	background: transparent;
 
 }
@@ -140,6 +183,7 @@ form{
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
+  font-family: 'Poiret One', cursive;
 }
 #contactform button:hover
 {
@@ -150,16 +194,15 @@ textarea{
 	border-radius: 5px;
 	padding: 0.5vw;
 	font-size: 1vw;
-	font-family: comic sans ms;
+	font-family: 'Caveat', cursive;
 	background: transparent;
-	color: #D1A64B;
 }
 .name{
 	color: #848484;
 	font-size: 1vw;
 	
 	font-weight: bold;
-	font-family: 'Quattrocento', serif;
+	font-family: 'Poiret One', cursive;
 	}
 	@media screen and ( max-width:600px )
 {
@@ -175,8 +218,11 @@ textarea{
 		width: 50%;
 
 	}
-	.details{
+	.details,.developer{
 		width: 70%;
+	}
+	.aboutme{
+		font-size: 3vw;
 	}
 	.cform,.detail{
 		font-size: 5vw;
@@ -190,6 +236,9 @@ textarea{
 	}
 	.captain img{
 		height: 50vw;
+	}
+	.me img{
+		height: 60vw;
 	}
 	.mailid{
 		font-size: 2.5vw;
@@ -255,10 +304,9 @@ textarea{
 		</div>
 		<div class="captain" data-aos="flip-left">
 		 <img src="images/captain.jpg" alt="not available">
-		 <div>
 			 
 		 </div>
-		</div>
+	
 	</div>
 </div>
 
@@ -270,27 +318,28 @@ textarea{
 
 
 
-	<div class="details" data-aos="zoom-in-down">
-		<div class="detail">DETAILS
+	<div class="developer" data-aos="zoom-in-down">
+		<div class="detail">ABOUT DEVELOPER
 		</div>
-		<div class="mail">
-			<div class="mailicon">
-				<img src="images/gmail.png" alt="not shown">
-			</div>
-			<div class="mailid">shivamyadavsy98@gmail.com</div>
+		<div class="me" data-aos="flip-left">
+			<img src="images/nb.JPEG" alt="not available">
 		</div>
-		<div class="mail">
-			<div class="mailicon">
-				<img src="images/whatsapp.png" alt="not shown">
-			</div>
-			<div class="mailid">7404429484 , 8923710404</div>
+		<div class="aboutme">
+			NISHANT BIJLIYA
 		</div>
-		<div class="captain" data-aos="flip-left">
-			<img src="images/captain.jpg" alt="not available">
-			<div>
+		<div class="aboutme">
+			NIT KURUKSHETRA
+		</div>
+		<div class="aboutme">
+		    INFORMATION TECHNOLOGY ,IT-A(1)
+		</div>
+		<div class="aboutme">
+			ROLL NO - 11913022
+		</div>
+		<div class="aboutme">
+			nishantbijliya@gmail.com
+		</div>
 	
-			</div>
-		</div>
 	</div>
 	
 	
