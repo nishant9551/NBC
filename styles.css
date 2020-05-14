@@ -223,6 +223,7 @@ h2{
        grid-template-columns: 0.8fr 0.8fr 1.2fr 0.8fr 0.8fr;
        width:100% !important;
        margin:0 !important;
+       height: 25vw; 
    }
    .footer
 {
